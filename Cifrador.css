@@ -1,0 +1,194 @@
+/* STYLE CSS PARA CIFRADOR NCESTEC */
+
+/* APLICA A TODA LA PÁGINA */
+
+body{
+    font-family: 'Poppins', sans-serif; /* para que aplique la fuente a todo la página */
+    background: black;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    
+}    
+header{
+    display: flex; /* inicialmente está en display:block, flex pone el titulo al lado del logo */
+    background: Black;
+    margin-top: 5px; 
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 0px 0px 0px #D8DFE8;
+}
+
+main{
+    background-image: url("https://us.123rf.com/450wm/versusstudio/versusstudio1607/versusstudio160700066/60015831-brillante-fondo-futurista-del-modelo-rojo-del-hex%C3%A1gono-3d-hacer-ilustraci%C3%B3n.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 5px 0px 0px #D8DFE8;
+    opacity: .70;
+
+}
+
+.logo{
+    /*background: pink;*/
+    padding:20px;
+    width: 80px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    font-size: 30px;
+    color: #fd1616;
+    text-shadow: 2px 2px 2px white;    
+}
+
+.textarea1{
+    display: flex; 
+    margin-top: 20px;
+    margin-left: 60px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.textarea1::placeholder{
+    color: white;
+}
+
+.exclamation1{
+    /* background: purple; */
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 70%;
+    font-size: 12px;
+    color: white;
+}
+
+.btnEncode{
+    background: rgb(208, 12, 12);
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    border: none;
+    padding: 15px;
+    width: 270px;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.btnEncode:hover{
+    background: rgb(226, 84, 41);
+    color: white;
+    font-size: 20px;
+}
+
+.btnDecode{
+    visibility: hidden; 
+    background: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 24px;
+    border: 1px solid #0A3871   ;
+    padding: 15px;
+    width: 270px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.btnDecode:hover{
+    background-color: rgb(153, 223, 189);
+    color:white
+    font-size: 20px;
+    border: none;
+}
+
+.btnCopy{
+    visibility: hidden;
+    background: rgb(255, 176, 6);
+    color: white;
+    font-size: 15px;
+    border-radius: 24px;
+    border: none;
+    padding: 15px;
+    width: 250px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 1s ease;
+    
+}
+
+.btnCopy:hover{
+    background: rgb(242, 210, 3);
+    color:rgb(27, 35, 84);
+    font-size: 20px;
+}
+
+.textarea2{
+    display: flex; 
+    margin-top: 25px;
+    margin-left: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.textarea2::placeholder{
+    color: white;
+}
+
+.vrectangle{
+    background: transparent;
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    height: 97%;
+    text-align: center;
+    box-shadow: 3px 3px 3px 2px #D8DFE8;
+}
+
+.muneco{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 20px;
+    }
+
+.exclamation2{
+    /*background: purple;*/
+    visibility: hidden; 
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 70%;
+    font-size: 12px;
+    padding: 5px;
+    color: white;
+    font-weight:bolder;
+}
+
+.exclamation3{
+    /* background: purple; */
+    visibility: hidden;
+    margin-top: 5px;
+    margin-left: 390px;
+    width: 70%;
+    font-size: 12px;
+    color: white;
+    font-weight: bolder;
+}
