@@ -1,8 +1,10 @@
 
-const startText = document.getElementById("jtextarea1");
+        const startText = document.getElementById("jtextarea1");
         const finalText = document.getElementById("jtextarea2");
-
         const buttonEncode = document.getElementById("jbtnEncode");
+        const buttonDecode = document.getElementById("jbtnDecode");
+        const buttonCopy = document.getElementById("jbtnCopy");
+        const buttonRestart = document.getElementById("jbtnRestart");
 
         function encode(){
             let msj = startText.value.toLowerCase();
@@ -23,8 +25,6 @@ const startText = document.getElementById("jtextarea1");
 
         buttonEncode.onclick = encode;
         
-        
-        const buttonDecode = document.getElementById("jbtnDecode");
 
         function decode(){
             let msj = startText.value.toLowerCase();
@@ -38,12 +38,13 @@ const startText = document.getElementById("jtextarea1");
 
             document.getElementById("jbtnDecode").style.visibility = "hidden";
             document.getElementById("jexclamation3").style.visibility = "hidden";
+            document.getElementById("jbtnRestart").style.display = "block";
     
         }
 
         buttonDecode.onclick = decode;
 
-        const buttonCopy = document.getElementById("jbtnCopy");
+        
 
         function copy(){
             const textCopied = document.getElementById("jtextarea2");
@@ -64,6 +65,12 @@ const startText = document.getElementById("jtextarea1");
 
         buttonCopy.onclick = copy; 
 
+        function refresh() {
+            const restart = document.getElementById("jbtnRestart");
+            location.reload();
+        }
+
+        buttonRestart.onclick = refresh;
             
 
 
