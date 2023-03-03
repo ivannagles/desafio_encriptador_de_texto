@@ -5,6 +5,7 @@
         const buttonDecode = document.getElementById("jbtnDecode");
         const buttonCopy = document.getElementById("jbtnCopy");
         const buttonRestart = document.getElementById("jbtnRestart");
+        
 
         function encode(){
             let msj = startText.value.toLowerCase();
@@ -75,8 +76,10 @@
 
 
         /*
-        Probando funcion
+        Probando funcion para copiar usando el clipboard
         function copy(){
             var textEncoded = finalText.value;
             navigator.clipboard.writeText(textDecoded);
-        }*/
+        }
+
+        */
