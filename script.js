@@ -39,7 +39,9 @@
 
             document.getElementById("jbtnDecode").style.visibility = "hidden";
             document.getElementById("jexclamation3").style.visibility = "hidden";
+            document.getElementById("jbtnEncode").style.display = "none";
             document.getElementById("jbtnRestart").style.display = "block";
+
     
         }
 
